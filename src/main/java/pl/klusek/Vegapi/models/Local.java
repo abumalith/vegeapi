@@ -26,8 +26,8 @@ public class Local implements Serializable {
 	private OpenHours openHours;
 	private String urlToLogo;
 	private String shortDescription;
-	private float xGPS;
-	private float yGPS;
+	private double xGPS;
+	private double yGPS;
 	
 	public long getId() {
 		return id;
@@ -83,13 +83,13 @@ public class Local implements Serializable {
 	public void setShortDescription(String shortDescription) {
 		this.shortDescription = shortDescription;
 	}
-	public float getxGPS() {
+	public double getxGPS() {
 		return xGPS;
 	}
 	public void setxGPS(float xGPS) {
 		this.xGPS = xGPS;
 	}
-	public float getyGPS() {
+	public double getyGPS() {
 		return yGPS;
 	}
 	public void setyGPS(float yGPS) {
