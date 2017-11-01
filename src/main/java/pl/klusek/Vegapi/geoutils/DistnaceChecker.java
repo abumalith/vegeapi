@@ -11,13 +11,13 @@ public class DistnaceChecker {
 		double distanceX = 0;
 		double distanceY = 0;
 		
-		if (otherLoc.getxGPS() < myLoc.getxGPS()) {
+		if (otherLoc.getxGPS() > myLoc.getxGPS()) {
 			distanceX = Math.abs(otherLoc.getxGPS() - myLoc.getxGPS());
 		} else {
 			distanceX = Math.abs(myLoc.getxGPS() - otherLoc.getxGPS());
 		}
 		
-		if (otherLoc.getyGPS() < myLoc.getyGPS()) {
+		if (otherLoc.getyGPS() > myLoc.getyGPS()) {
 			distanceY = Math.abs(otherLoc.getyGPS() - myLoc.getyGPS());
 		} else {
 			distanceY = Math.abs(myLoc.getyGPS() - otherLoc.getyGPS());
