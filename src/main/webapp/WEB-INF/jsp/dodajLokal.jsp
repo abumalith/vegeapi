@@ -13,6 +13,8 @@
 <p>Dodaj lokal: </p>
 <form:form action="/dodajLokal" method="POST" modelAttribute="lokal">
 <div><label> Nazwa: <input type="text" name="name" /></label></div>
+<div><label> Miasto: <input type="text" name="city" /></label></div>
+<div><label> Kod pocztowy: <input type="text" name="postalCode" /></label></div>
 <div><label> Ulica: <input type="text" name="street" /></label></div>
 <div><label> Nr ulicy: <input type="text" name="streetNumber" /></label></div>
 <div><label> Telefon: <input type="text" name="tel" /></label></div>

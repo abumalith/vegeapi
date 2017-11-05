@@ -19,11 +19,12 @@ public class Local implements Serializable {
 	@GeneratedValue
 	private long id;
 	private String name;
+	private String city;
+	private String postalCode;
 	private String street;
 	private String streetNumber;
 	private String tel;
 	private String website;
-	private OpenHours openHours;
 	private String urlToLogo;
 	private String shortDescription;
 	private double xGPS;
@@ -65,12 +66,7 @@ public class Local implements Serializable {
 	public void setStreetNumber(String streetNumber) {
 		this.streetNumber = streetNumber;
 	}
-	public OpenHours getOpenHours() {
-		return openHours;
-	}
-	public void setOpenHours(OpenHours openHours) {
-		this.openHours = openHours;
-	}
+
 	public String getUrlToLogo() {
 		return urlToLogo;
 	}
@@ -93,6 +89,24 @@ public class Local implements Serializable {
 		return yGPS;
 	}
 	public void setyGPS(float yGPS) {
+		this.yGPS = yGPS;
+	}
+	public String getCity() {
+		return city;
+	}
+	public void setCity(String city) {
+		this.city = city;
+	}
+	public String getPostalCode() {
+		return postalCode;
+	}
+	public void setPostalCode(String postalCode) {
+		this.postalCode = postalCode;
+	}
+	public void setxGPS(double xGPS) {
+		this.xGPS = xGPS;
+	}
+	public void setyGPS(double yGPS) {
 		this.yGPS = yGPS;
 	}
 	

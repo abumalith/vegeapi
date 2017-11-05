@@ -11,6 +11,7 @@
 <body>
 <p>${message}</p>
 <a href="/logout">Wyloguj</a>
+<br><a href="/dodajLokal">Dodaj lokal</a>
 
 </body>
 </html>

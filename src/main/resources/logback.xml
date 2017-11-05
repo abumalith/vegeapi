@@ -38,7 +38,7 @@
 
 	 
 
-	    <logger name="pl.klusek.Vegapi" level="INFO" additivity="false">
+	    <logger name="pl.klusek.Vegapi" level="DEBUG" additivity="false">
 
 
             <appender-ref ref="FILE" />
